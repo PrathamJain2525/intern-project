@@ -4,6 +4,7 @@ import HeroSection from '@/components/home/HeroSection'
 import React from 'react'
 import What from '@/components/home/What'
 import FAQSection from '@/components/home/Faq'
+import InfiniteSlider from '@/components/home/InfiniteSlider'
 const page = () => {
     return (
         <>
@@ -11,6 +12,8 @@ const page = () => {
                 <HeroSection />
                 <What/>
                 <FAQSection />
+                <InfiniteSlider/>
+
             </div>
 
 
